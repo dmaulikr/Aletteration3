@@ -1,0 +1,1544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63042A741891AAEE0089BDAC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63042A731891AAEE0089BDAC /* GameKit.framework */; };
+		63042A771891BB100089BDAC /* NezStoreKitProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 63042A761891BB100089BDAC /* NezStoreKitProduct.m */; };
+		630D81FF182EF80400CC6848 /* NezCubicBezier2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 630D81FE182EF80400CC6848 /* NezCubicBezier2d.m */; };
+		630D8202182EF8DB00CC6848 /* NezPath2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 630D8201182EF8DB00CC6848 /* NezPath2d.m */; };
+		630D8205182EFA1600CC6848 /* NezAnimationPath2d.m in Sources */ = {isa = PBXBuildFile; fileRef = 630D8204182EFA1600CC6848 /* NezAnimationPath2d.m */; };
+		63137EF5182810B3005AC3E5 /* NezRestorableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 63137EF4182810B3005AC3E5 /* NezRestorableObject.m */; };
+		631552D31820534800303988 /* NezAletterationAnimationRetireWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 631552D21820534800303988 /* NezAletterationAnimationRetireWord.m */; };
+		631552D61820536300303988 /* NezAletterationAnimationUnretireWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 631552D51820536300303988 /* NezAletterationAnimationUnretireWord.m */; };
+		6315B32218622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315B32118622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.m */; };
+		63172898182773950028AE49 /* NezAletterationRestorableGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 63172897182773950028AE49 /* NezAletterationRestorableGeometry.m */; };
+		6319F59418526DB80034F547 /* NezInstanceAttributeBufferObjectLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F59318526DB80034F547 /* NezInstanceAttributeBufferObjectLocation.m */; };
+		6319F597185270860034F547 /* NezVertexArrayObjectEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F596185270860034F547 /* NezVertexArrayObjectEmitter.m */; };
+		6319F59A185272880034F547 /* NezVertexArrayObjectGeometryEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319F599185272880034F547 /* NezVertexArrayObjectGeometryEmitter.m */; };
+		631B066118414C110020C0B9 /* NezStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B066018414C110020C0B9 /* NezStoreKit.m */; };
+		631B066318414E460020C0B9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631B066218414E460020C0B9 /* StoreKit.framework */; };
+		631B066A184151F10020C0B9 /* NezAletterationStoreKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B0669184151F10020C0B9 /* NezAletterationStoreKit.m */; };
+		631B1FA018471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B1F9F18471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.m */; };
+		631B1FA6184724B600A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 631B1FA5184724B600A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.m */; };
+		631C02C11831A14B00B2828B /* NezAletterationPlayerOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C02C01831A14B00B2828B /* NezAletterationPlayerOptionsViewController.m */; };
+		631C02D61831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C02D31831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.m */; };
+		631C02D71831CA6400B2828B /* NezToolbarBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C02D51831CA6400B2828B /* NezToolbarBackgroundView.m */; };
+		631C02DA1831CA8600B2828B /* NezAletterationRoundCornerTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 631C02D91831CA8600B2828B /* NezAletterationRoundCornerTagView.m */; };
+		631CEB02183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 631CEB01183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.m */; };
+		631E2E661815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E2E651815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.m */; };
+		631E2E691815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E2E681815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.m */; };
+		63229F5D181F299E0086B051 /* NezAletterationAnimationExitGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 63229F5C181F299E0086B051 /* NezAletterationAnimationExitGame.m */; };
+		6323348018123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6323347F18123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.m */; };
+		632334841812409E0055C534 /* NezGameCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 632334831812409E0055C534 /* NezGameCenter.m */; };
+		6323C353183543C30018661B /* UIView+ExtraContraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 6323C352183543C30018661B /* UIView+ExtraContraints.m */; };
+		6323C35618354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6323C35518354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.m */; };
+		63263EDA183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63263ED9183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.m */; };
+		6326874C182E0A4D0010C14A /* NezAletterationAnimationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 6326874B182E0A4D0010C14A /* NezAletterationAnimationSlide.m */; };
+		632DF77118315DD800AC65B5 /* NezAletterationPlayerPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 632DF77018315DD800AC65B5 /* NezAletterationPlayerPrefs.m */; };
+		634334911836B7C70018005F /* NezVertexBufferObjectParticleVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 634334901836B7C70018005F /* NezVertexBufferObjectParticleVertex.m */; };
+		63450BA71821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63450BA61821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.m */; };
+		6349C9B617F88609007E38BD /* aletterationLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6349C9B417F88609007E38BD /* aletterationLogo.png */; };
+		6349C9B717F88609007E38BD /* aletterationLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6349C9B517F88609007E38BD /* aletterationLogo@2x.png */; };
+		6349C9BB17F88C9D007E38BD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349C9BA17F88C9D007E38BD /* UIImage+ImageEffects.m */; };
+		6349C9BE17F88CE8007E38BD /* NezAletterationMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349C9BD17F88CE8007E38BD /* NezAletterationMainMenuViewController.m */; };
+		6349C9C417F8A9E0007E38BD /* NezAletterationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349C9C317F8A9E0007E38BD /* NezAletterationNavigationController.m */; };
+		634CD0E6181B14A700D04FC9 /* NezPath3d.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD0E5181B14A700D04FC9 /* NezPath3d.m */; };
+		634CD0E9181B159B00D04FC9 /* NezAnimationPath3d.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD0E8181B159B00D04FC9 /* NezAnimationPath3d.m */; };
+		634CD0EC181B6B2300D04FC9 /* NezAletterationLetterBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD0EB181B6B2300D04FC9 /* NezAletterationLetterBox.m */; };
+		634CD0EF181B6C6100D04FC9 /* NezAletterationLetterGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 634CD0EE181B6C6100D04FC9 /* NezAletterationLetterGroup.m */; };
+		634DAAB917F35DBF00AA6460 /* NezGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DAAB817F35DBF00AA6460 /* NezGCD.m */; };
+		634DAABF17F37A2300AA6460 /* bowlerdahl_iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 634DAABB17F37A2300AA6460 /* bowlerdahl_iPad.png */; };
+		634DAAC017F37A2300AA6460 /* bowlerdahl_iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 634DAABC17F37A2300AA6460 /* bowlerdahl_iPad@2x.png */; };
+		634DAAC117F37A2300AA6460 /* bowlerdahl.png in Resources */ = {isa = PBXBuildFile; fileRef = 634DAABD17F37A2300AA6460 /* bowlerdahl.png */; };
+		634DAAC217F37A2300AA6460 /* bowlerdahl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 634DAABE17F37A2300AA6460 /* bowlerdahl@2x.png */; };
+		634DAAC517F3820600AA6460 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 634DAAC417F3820600AA6460 /* Sounds */; };
+		634DAAC817F3824700AA6460 /* NezOpenAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DAAC717F3824700AA6460 /* NezOpenAL.m */; };
+		634DAACB17F382C200AA6460 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634DAAC917F382C200AA6460 /* AVFoundation.framework */; };
+		634DAACC17F382C200AA6460 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634DAACA17F382C200AA6460 /* OpenAL.framework */; };
+		634DAAD017F39B4600AA6460 /* NezFadeCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DAACF17F39B4600AA6460 /* NezFadeCustomSegue.m */; };
+		634DAAD317F39BDE00AA6460 /* NezAletterationGameTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DAAD217F39BDE00AA6460 /* NezAletterationGameTable.m */; };
+		634DAAD717F3B72C00AA6460 /* NezAletterationBaseGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634DAAD617F3B72C00AA6460 /* NezAletterationBaseGameViewController.m */; };
+		634DAADF17F494AC00AA6460 /* anonymous.png in Resources */ = {isa = PBXBuildFile; fileRef = 634DAADE17F494AC00AA6460 /* anonymous.png */; };
+		634E7282180E68E30094402A /* NezAletterationGameStateLineStateStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 634E7281180E68E30094402A /* NezAletterationGameStateLineStateStack.m */; };
+		635021E717F9E0FC009256A1 /* NezRandom.c in Sources */ = {isa = PBXBuildFile; fileRef = 635021E617F9E0FC009256A1 /* NezRandom.c */; };
+		635021EB17FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 635021EA17FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.m */; };
+		635021EF17FA3F8C009256A1 /* NezAletterationPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 635021EE17FA3F8C009256A1 /* NezAletterationPlayer.m */; };
+		6351002C17EEB199003C3B07 /* Textures in Resources */ = {isa = PBXBuildFile; fileRef = 6351002B17EEB199003C3B07 /* Textures */; };
+		635218BB17F2043900F20784 /* NezAletterationGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352188117F2043900F20784 /* NezAletterationGameBoard.m */; };
+		635218BC17F2043900F20784 /* NezAletterationLetterBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352188317F2043900F20784 /* NezAletterationLetterBlock.m */; };
+		635218BD17F2043900F20784 /* NezAletterationLetterStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352188517F2043900F20784 /* NezAletterationLetterStack.m */; };
+		635218BE17F2043900F20784 /* NezAletterationLetterStackLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352188717F2043900F20784 /* NezAletterationLetterStackLabel.m */; };
+		635218BF17F2043900F20784 /* NezAletterationWordLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352188917F2043900F20784 /* NezAletterationWordLine.m */; };
+		635218C017F2043900F20784 /* NezAletterationGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352188C17F2043900F20784 /* NezAletterationGraphics.m */; };
+		635218C217F2043900F20784 /* NezAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352189117F2043900F20784 /* NezAnimation.m */; };
+		635218C317F2043900F20784 /* NezAnimationEasingFunction.c in Sources */ = {isa = PBXBuildFile; fileRef = 6352189217F2043900F20784 /* NezAnimationEasingFunction.c */; };
+		635218C417F2043900F20784 /* NezAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352189517F2043900F20784 /* NezAnimator.m */; };
+		635218C617F2043900F20784 /* NezCubicBezier3d.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352189A17F2043900F20784 /* NezCubicBezier3d.m */; };
+		635218C717F2043900F20784 /* NezGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352189C17F2043900F20784 /* NezGeometry.m */; };
+		635218C817F2043900F20784 /* NezRay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6352189E17F2043900F20784 /* NezRay.m */; };
+		635218D017F2043900F20784 /* NezSimpleObjLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 635218B117F2043900F20784 /* NezSimpleObjLoader.m */; };
+		635218D117F2043900F20784 /* NezAletterationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 635218B317F2043900F20784 /* NezAletterationAppDelegate.m */; };
+		635218D317F2043900F20784 /* NezGLSLCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 635218B817F2043900F20784 /* NezGLSLCompiler.m */; };
+		635218D417F2043900F20784 /* NezGLSLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 635218BA17F2043900F20784 /* NezGLSLProgram.m */; };
+		635218D717F2062400F20784 /* NezMaterials.m in Sources */ = {isa = PBXBuildFile; fileRef = 635218D617F2062400F20784 /* NezMaterials.m */; };
+		635218D917F2150C00F20784 /* Materials in Resources */ = {isa = PBXBuildFile; fileRef = 635218D817F2150C00F20784 /* Materials */; };
+		635218E017F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 635218DF17F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.m */; };
+		6353991417F349CF000C24E3 /* NezAletterationGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353991317F349CF000C24E3 /* NezAletterationGLKViewController.m */; };
+		6353991717F34A53000C24E3 /* NezAletterationSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6353991617F34A53000C24E3 /* NezAletterationSplashViewController.m */; };
+		6358A11B17ECD020003DE78F /* UpdateNezGLSLProgram.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6358A11A17ECD020003DE78F /* UpdateNezGLSLProgram.rb */; };
+		6358A13F17ED3207003DE78F /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 6358A13E17ED3207003DE78F /* Models */; };
+		635A33AF17ECCDA200A69F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33AE17ECCDA200A69F27 /* Foundation.framework */; };
+		635A33B117ECCDA200A69F27 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33B017ECCDA200A69F27 /* CoreGraphics.framework */; };
+		635A33B317ECCDA200A69F27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33B217ECCDA200A69F27 /* UIKit.framework */; };
+		635A33B517ECCDA200A69F27 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33B417ECCDA200A69F27 /* GLKit.framework */; };
+		635A33B717ECCDA200A69F27 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33B617ECCDA200A69F27 /* OpenGLES.framework */; };
+		635A33BD17ECCDA200A69F27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 635A33BB17ECCDA200A69F27 /* InfoPlist.strings */; };
+		635A33BF17ECCDA200A69F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 635A33BE17ECCDA200A69F27 /* main.m */; };
+		635A33C617ECCDA200A69F27 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635A33C417ECCDA200A69F27 /* Main_iPhone.storyboard */; };
+		635A33C917ECCDA200A69F27 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635A33C717ECCDA200A69F27 /* Main_iPad.storyboard */; };
+		635A33D217ECCDA200A69F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635A33D117ECCDA200A69F27 /* Images.xcassets */; };
+		635A33D917ECCDA200A69F27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33D817ECCDA200A69F27 /* XCTest.framework */; };
+		635A33DA17ECCDA200A69F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33AE17ECCDA200A69F27 /* Foundation.framework */; };
+		635A33DB17ECCDA200A69F27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A33B217ECCDA200A69F27 /* UIKit.framework */; };
+		635A33E317ECCDA200A69F27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 635A33E117ECCDA200A69F27 /* InfoPlist.strings */; };
+		635A33E517ECCDA200A69F27 /* Aletteration3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635A33E417ECCDA200A69F27 /* Aletteration3Tests.m */; };
+		635A33FD17ECCE8500A69F27 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 635A33FC17ECCE8500A69F27 /* Shaders */; };
+		635C047918184415000E0C84 /* NezAletterationBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C047818184415000E0C84 /* NezAletterationBox.m */; };
+		635C047C18184554000E0C84 /* NezAletterationLid.m in Sources */ = {isa = PBXBuildFile; fileRef = 635C047B18184554000E0C84 /* NezAletterationLid.m */; };
+		635D27FB1853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 635D27FA1853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.m */; };
+		635D45D818513145001A3A62 /* a-black-lowercase.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D018513145001A3A62 /* a-black-lowercase.png */; };
+		635D45D918513145001A3A62 /* a-black-lowercase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D118513145001A3A62 /* a-black-lowercase@2x.png */; };
+		635D45DA18513145001A3A62 /* a-black-uppercase.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D218513145001A3A62 /* a-black-uppercase.png */; };
+		635D45DB18513145001A3A62 /* a-black-uppercase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D318513145001A3A62 /* a-black-uppercase@2x.png */; };
+		635D45DC18513145001A3A62 /* a-white-lowercase.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D418513145001A3A62 /* a-white-lowercase.png */; };
+		635D45DD18513145001A3A62 /* a-white-lowercase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D518513145001A3A62 /* a-white-lowercase@2x.png */; };
+		635D45DE18513145001A3A62 /* a-white-uppercase.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D618513145001A3A62 /* a-white-uppercase.png */; };
+		635D45DF18513145001A3A62 /* a-white-uppercase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 635D45D718513145001A3A62 /* a-white-uppercase@2x.png */; };
+		6369844E181776730034D89D /* NezGLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 6369844D181776730034D89D /* NezGLCamera.m */; };
+		636BEFAF1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 636BEFAE1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.m */; };
+		636BEFB21847D75800D8C143 /* NezAletterationTextureBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 636BEFB11847D75800D8C143 /* NezAletterationTextureBlock.m */; };
+		636BEFB51847D9EE00D8C143 /* NezVertexArrayObjectTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 636BEFB41847D9EE00D8C143 /* NezVertexArrayObjectTexture.m */; };
+		6373437D18032CA7002A3BBD /* NezModelVertexArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373437C18032CA7002A3BBD /* NezModelVertexArray.m */; };
+		6373438118032E62002A3BBD /* NezVertexBufferObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373438018032E62002A3BBD /* NezVertexBufferObject.m */; };
+		6373438B18033818002A3BBD /* NezVertexBufferObjectLitVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373438A18033818002A3BBD /* NezVertexBufferObjectLitVertex.m */; };
+		63734397180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 63734396180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.m */; };
+		6373439D1803429E002A3BBD /* NezInstanceAttributeBufferObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373439A1803429E002A3BBD /* NezInstanceAttributeBufferObject.m */; };
+		6373439E1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373439C1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.m */; };
+		637343A318034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343A218034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.m */; };
+		637343A6180344DD002A3BBD /* NezVertexBufferObjectVertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343A5180344DD002A3BBD /* NezVertexBufferObjectVertex.m */; };
+		637343A818034587002A3BBD /* UpdateVertexBufferObjectClasses.rb in Resources */ = {isa = PBXBuildFile; fileRef = 637343A718034587002A3BBD /* UpdateVertexBufferObjectClasses.rb */; };
+		637343AA18035444002A3BBD /* UpdateInstanceAttributeBufferObjectClasses.rb in Resources */ = {isa = PBXBuildFile; fileRef = 637343A918035444002A3BBD /* UpdateInstanceAttributeBufferObjectClasses.rb */; };
+		637343AF18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343AC18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.m */; };
+		637343B018035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343AE18035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.m */; };
+		637343B318035F64002A3BBD /* NezVertexArrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343B218035F64002A3BBD /* NezVertexArrayObject.m */; };
+		637343B618036438002A3BBD /* NezInstanceVertexArrayObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343B518036438002A3BBD /* NezInstanceVertexArrayObject.m */; };
+		637343B918037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343B818037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.m */; };
+		637343BC18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343BB18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.m */; };
+		637343BF1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343BE1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.m */; };
+		637343C218039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 637343C118039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.m */; };
+		638427A918343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 638427A818343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.m */; };
+		638427B218348E7500AD05E2 /* vol0.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427AA18348E7500AD05E2 /* vol0.png */; };
+		638427B318348E7500AD05E2 /* vol0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427AB18348E7500AD05E2 /* vol0@2x.png */; };
+		638427B418348E7500AD05E2 /* vol1.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427AC18348E7500AD05E2 /* vol1.png */; };
+		638427B518348E7500AD05E2 /* vol1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427AD18348E7500AD05E2 /* vol1@2x.png */; };
+		638427B618348E7500AD05E2 /* vol2.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427AE18348E7500AD05E2 /* vol2.png */; };
+		638427B718348E7500AD05E2 /* vol2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427AF18348E7500AD05E2 /* vol2@2x.png */; };
+		638427B818348E7500AD05E2 /* vol3.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427B018348E7500AD05E2 /* vol3.png */; };
+		638427B918348E7500AD05E2 /* vol3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 638427B118348E7500AD05E2 /* vol3@2x.png */; };
+		6394999417FF55E400857C6C /* NezGLFrameBufferObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394999317FF55E400857C6C /* NezGLFrameBufferObject.m */; };
+		63C01D50185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C01D4F185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.m */; };
+		63C01D53185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C01D52185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.m */; };
+		63C18A0B1813221D00D26257 /* NezAletterationGameCenterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C18A0A1813221D00D26257 /* NezAletterationGameCenterPlayer.m */; };
+		63C54175181D95D20076B5A7 /* NezAletterationAnimationBeginGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C54174181D95D20076B5A7 /* NezAletterationAnimationBeginGame.m */; };
+		63D7E8B417F7682900754BE8 /* Pause-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D7E8B217F7682900754BE8 /* Pause-Icon.png */; };
+		63D7E8B517F7682900754BE8 /* Pause-Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D7E8B317F7682900754BE8 /* Pause-Icon@2x.png */; };
+		63DA127717FB455F0024C293 /* NezAletterationGameState.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA127617FB455F0024C293 /* NezAletterationGameState.m */; };
+		63DA127A17FB45B40024C293 /* NezAletterationGameStateLineState.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA127917FB45B40024C293 /* NezAletterationGameStateLineState.m */; };
+		63DA127D17FB46090024C293 /* NezAletterationGameStateRetiredWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA127C17FB46090024C293 /* NezAletterationGameStateRetiredWord.m */; };
+		63DA128017FB46C50024C293 /* NezAletterationGameStateTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA127F17FB46C50024C293 /* NezAletterationGameStateTurn.m */; };
+		63DA128817FB52880024C293 /* NezAletterationSQLiteDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA128317FB52880024C293 /* NezAletterationSQLiteDictionary.m */; };
+		63DA128917FB52880024C293 /* NezSQLite.c in Sources */ = {isa = PBXBuildFile; fileRef = 63DA128417FB52880024C293 /* NezSQLite.c */; };
+		63DA128A17FB52880024C293 /* NezSQLiteHighScores.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DA128717FB52880024C293 /* NezSQLiteHighScores.m */; };
+		63DA128C17FB52AF0024C293 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DA128B17FB52AF0024C293 /* libsqlite3.dylib */; };
+		63DA128E17FB537D0024C293 /* Databases in Resources */ = {isa = PBXBuildFile; fileRef = 63DA128D17FB537D0024C293 /* Databases */; };
+		63F92535180731DF001DD535 /* NezAletterationSaveGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F92534180731DF001DD535 /* NezAletterationSaveGame.m */; };
+		63FF9B051805FA57009B91B2 /* NezAletterationRetiredWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF9B041805FA57009B91B2 /* NezAletterationRetiredWord.m */; };
+		63FF9B0818061B77009B91B2 /* NezAletterationRetiredWordBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FF9B0718061B77009B91B2 /* NezAletterationRetiredWordBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635A33DC17ECCDA200A69F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635A33A317ECCDA200A69F27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635A33AA17ECCDA200A69F27;
+			remoteInfo = Aletteration3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63042A731891AAEE0089BDAC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		63042A751891BB100089BDAC /* NezStoreKitProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezStoreKitProduct.h; sourceTree = "<group>"; };
+		63042A761891BB100089BDAC /* NezStoreKitProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezStoreKitProduct.m; sourceTree = "<group>"; };
+		630D81FD182EF80400CC6848 /* NezCubicBezier2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezCubicBezier2d.h; sourceTree = "<group>"; };
+		630D81FE182EF80400CC6848 /* NezCubicBezier2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezCubicBezier2d.m; sourceTree = "<group>"; };
+		630D8200182EF8DB00CC6848 /* NezPath2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezPath2d.h; sourceTree = "<group>"; };
+		630D8201182EF8DB00CC6848 /* NezPath2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezPath2d.m; sourceTree = "<group>"; };
+		630D8203182EFA1600CC6848 /* NezAnimationPath2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAnimationPath2d.h; sourceTree = "<group>"; };
+		630D8204182EFA1600CC6848 /* NezAnimationPath2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAnimationPath2d.m; sourceTree = "<group>"; };
+		63137EF3182810B3005AC3E5 /* NezRestorableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezRestorableObject.h; sourceTree = "<group>"; };
+		63137EF4182810B3005AC3E5 /* NezRestorableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezRestorableObject.m; sourceTree = "<group>"; };
+		631552D11820534800303988 /* NezAletterationAnimationRetireWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationRetireWord.h; path = Animation/NezAletterationAnimationRetireWord.h; sourceTree = "<group>"; };
+		631552D21820534800303988 /* NezAletterationAnimationRetireWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationRetireWord.m; path = Animation/NezAletterationAnimationRetireWord.m; sourceTree = "<group>"; };
+		631552D41820536300303988 /* NezAletterationAnimationUnretireWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationUnretireWord.h; path = Animation/NezAletterationAnimationUnretireWord.h; sourceTree = "<group>"; };
+		631552D51820536300303988 /* NezAletterationAnimationUnretireWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationUnretireWord.m; path = Animation/NezAletterationAnimationUnretireWord.m; sourceTree = "<group>"; };
+		6315B32018622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObjectTexturedGeometryEmitter.h; sourceTree = "<group>"; };
+		6315B32118622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObjectTexturedGeometryEmitter.m; sourceTree = "<group>"; };
+		63172896182773950028AE49 /* NezAletterationRestorableGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRestorableGeometry.h; sourceTree = "<group>"; };
+		63172897182773950028AE49 /* NezAletterationRestorableGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRestorableGeometry.m; sourceTree = "<group>"; };
+		6319F59218526DB70034F547 /* NezInstanceAttributeBufferObjectLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObjectLocation.h; sourceTree = "<group>"; };
+		6319F59318526DB80034F547 /* NezInstanceAttributeBufferObjectLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObjectLocation.m; sourceTree = "<group>"; };
+		6319F595185270860034F547 /* NezVertexArrayObjectEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObjectEmitter.h; sourceTree = "<group>"; };
+		6319F596185270860034F547 /* NezVertexArrayObjectEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObjectEmitter.m; sourceTree = "<group>"; };
+		6319F598185272880034F547 /* NezVertexArrayObjectGeometryEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObjectGeometryEmitter.h; sourceTree = "<group>"; };
+		6319F599185272880034F547 /* NezVertexArrayObjectGeometryEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObjectGeometryEmitter.m; sourceTree = "<group>"; };
+		631B065F18414C110020C0B9 /* NezStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezStoreKit.h; sourceTree = "<group>"; };
+		631B066018414C110020C0B9 /* NezStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezStoreKit.m; sourceTree = "<group>"; };
+		631B066218414E460020C0B9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		631B0668184151F10020C0B9 /* NezAletterationStoreKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationStoreKit.h; sourceTree = "<group>"; };
+		631B0669184151F10020C0B9 /* NezAletterationStoreKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationStoreKit.m; sourceTree = "<group>"; };
+		631B1F9E18471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObjectParticleEmitter.h; sourceTree = "<group>"; };
+		631B1F9F18471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObjectParticleEmitter.m; sourceTree = "<group>"; };
+		631B1FA4184724B500A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObjectAcceleratingParticleEmitter.h; sourceTree = "<group>"; };
+		631B1FA5184724B600A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObjectAcceleratingParticleEmitter.m; sourceTree = "<group>"; };
+		631C02BF1831A14B00B2828B /* NezAletterationPlayerOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationPlayerOptionsViewController.h; sourceTree = "<group>"; };
+		631C02C01831A14B00B2828B /* NezAletterationPlayerOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationPlayerOptionsViewController.m; sourceTree = "<group>"; };
+		631C02D21831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationPlayerCollectionViewCell.h; sourceTree = "<group>"; };
+		631C02D31831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationPlayerCollectionViewCell.m; sourceTree = "<group>"; };
+		631C02D41831CA6400B2828B /* NezToolbarBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezToolbarBackgroundView.h; sourceTree = "<group>"; };
+		631C02D51831CA6400B2828B /* NezToolbarBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezToolbarBackgroundView.m; sourceTree = "<group>"; };
+		631C02D81831CA8600B2828B /* NezAletterationRoundCornerTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRoundCornerTagView.h; sourceTree = "<group>"; };
+		631C02D91831CA8600B2828B /* NezAletterationRoundCornerTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRoundCornerTagView.m; sourceTree = "<group>"; };
+		631CEB00183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectColorTexture.h; sourceTree = "<group>"; };
+		631CEB01183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectColorTexture.m; sourceTree = "<group>"; };
+		631E2E641815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectLitTextureVertex.h; sourceTree = "<group>"; };
+		631E2E651815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectLitTextureVertex.m; sourceTree = "<group>"; };
+		631E2E671815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectLitTextureColor.h; sourceTree = "<group>"; };
+		631E2E681815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectLitTextureColor.m; sourceTree = "<group>"; };
+		63229F5B181F299E0086B051 /* NezAletterationAnimationExitGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationExitGame.h; path = Animation/NezAletterationAnimationExitGame.h; sourceTree = "<group>"; };
+		63229F5C181F299E0086B051 /* NezAletterationAnimationExitGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationExitGame.m; path = Animation/NezAletterationAnimationExitGame.m; sourceTree = "<group>"; };
+		6323347E18123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRealTimeMultiplayerViewController.h; sourceTree = "<group>"; };
+		6323347F18123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRealTimeMultiplayerViewController.m; sourceTree = "<group>"; };
+		632334821812409E0055C534 /* NezGameCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGameCenter.h; sourceTree = "<group>"; };
+		632334831812409E0055C534 /* NezGameCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGameCenter.m; sourceTree = "<group>"; };
+		6323C351183543C30018661B /* UIView+ExtraContraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ExtraContraints.h"; sourceTree = "<group>"; };
+		6323C352183543C30018661B /* UIView+ExtraContraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ExtraContraints.m"; sourceTree = "<group>"; };
+		6323C35418354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationSinglePlayerGameiPadViewController.h; sourceTree = "<group>"; };
+		6323C35518354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationSinglePlayerGameiPadViewController.m; sourceTree = "<group>"; };
+		63263ED8183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRealTimeMultiplayeriPadViewController.h; sourceTree = "<group>"; };
+		63263ED9183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRealTimeMultiplayeriPadViewController.m; sourceTree = "<group>"; };
+		6326874A182E0A4D0010C14A /* NezAletterationAnimationSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationSlide.h; path = Animation/NezAletterationAnimationSlide.h; sourceTree = "<group>"; };
+		6326874B182E0A4D0010C14A /* NezAletterationAnimationSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationSlide.m; path = Animation/NezAletterationAnimationSlide.m; sourceTree = "<group>"; };
+		6329253C1829775A0020C6DC /* NezRestorable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NezRestorable.h; sourceTree = "<group>"; };
+		632DF76F18315DD800AC65B5 /* NezAletterationPlayerPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationPlayerPrefs.h; path = Player/NezAletterationPlayerPrefs.h; sourceTree = "<group>"; };
+		632DF77018315DD800AC65B5 /* NezAletterationPlayerPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationPlayerPrefs.m; path = Player/NezAletterationPlayerPrefs.m; sourceTree = "<group>"; };
+		6343348F1836B7C70018005F /* NezVertexBufferObjectParticleVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectParticleVertex.h; sourceTree = "<group>"; };
+		634334901836B7C70018005F /* NezVertexBufferObjectParticleVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectParticleVertex.m; sourceTree = "<group>"; };
+		63450BA51821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationPushBackLetter.h; path = Animation/NezAletterationAnimationPushBackLetter.h; sourceTree = "<group>"; };
+		63450BA61821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationPushBackLetter.m; path = Animation/NezAletterationAnimationPushBackLetter.m; sourceTree = "<group>"; };
+		6349C9B417F88609007E38BD /* aletterationLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aletterationLogo.png; path = Resources/NamedImages/aletterationLogo.png; sourceTree = "<group>"; };
+		6349C9B517F88609007E38BD /* aletterationLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "aletterationLogo@2x.png"; path = "Resources/NamedImages/aletterationLogo@2x.png"; sourceTree = "<group>"; };
+		6349C9B917F88C9D007E38BD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6349C9BA17F88C9D007E38BD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		6349C9BC17F88CE8007E38BD /* NezAletterationMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationMainMenuViewController.h; sourceTree = "<group>"; };
+		6349C9BD17F88CE8007E38BD /* NezAletterationMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationMainMenuViewController.m; sourceTree = "<group>"; };
+		6349C9C217F8A9E0007E38BD /* NezAletterationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationNavigationController.h; sourceTree = "<group>"; };
+		6349C9C317F8A9E0007E38BD /* NezAletterationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationNavigationController.m; sourceTree = "<group>"; };
+		634CD0E4181B14A700D04FC9 /* NezPath3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezPath3d.h; sourceTree = "<group>"; };
+		634CD0E5181B14A700D04FC9 /* NezPath3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezPath3d.m; sourceTree = "<group>"; };
+		634CD0E7181B159B00D04FC9 /* NezAnimationPath3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAnimationPath3d.h; sourceTree = "<group>"; };
+		634CD0E8181B159B00D04FC9 /* NezAnimationPath3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAnimationPath3d.m; sourceTree = "<group>"; };
+		634CD0EA181B6B2300D04FC9 /* NezAletterationLetterBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationLetterBox.h; sourceTree = "<group>"; };
+		634CD0EB181B6B2300D04FC9 /* NezAletterationLetterBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationLetterBox.m; sourceTree = "<group>"; };
+		634CD0ED181B6C6100D04FC9 /* NezAletterationLetterGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationLetterGroup.h; sourceTree = "<group>"; };
+		634CD0EE181B6C6100D04FC9 /* NezAletterationLetterGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationLetterGroup.m; sourceTree = "<group>"; };
+		634DAAB717F35DBF00AA6460 /* NezGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGCD.h; sourceTree = "<group>"; };
+		634DAAB817F35DBF00AA6460 /* NezGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGCD.m; sourceTree = "<group>"; };
+		634DAABB17F37A2300AA6460 /* bowlerdahl_iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowlerdahl_iPad.png; path = Resources/NamedImages/bowlerdahl_iPad.png; sourceTree = "<group>"; };
+		634DAABC17F37A2300AA6460 /* bowlerdahl_iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bowlerdahl_iPad@2x.png"; path = "Resources/NamedImages/bowlerdahl_iPad@2x.png"; sourceTree = "<group>"; };
+		634DAABD17F37A2300AA6460 /* bowlerdahl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bowlerdahl.png; path = Resources/NamedImages/bowlerdahl.png; sourceTree = "<group>"; };
+		634DAABE17F37A2300AA6460 /* bowlerdahl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bowlerdahl@2x.png"; path = "Resources/NamedImages/bowlerdahl@2x.png"; sourceTree = "<group>"; };
+		634DAAC417F3820600AA6460 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = Resources/Sounds; sourceTree = "<group>"; };
+		634DAAC617F3824700AA6460 /* NezOpenAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezOpenAL.h; path = OpenAL/NezOpenAL.h; sourceTree = "<group>"; };
+		634DAAC717F3824700AA6460 /* NezOpenAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezOpenAL.m; path = OpenAL/NezOpenAL.m; sourceTree = "<group>"; };
+		634DAAC917F382C200AA6460 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		634DAACA17F382C200AA6460 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		634DAACE17F39B4600AA6460 /* NezFadeCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezFadeCustomSegue.h; sourceTree = "<group>"; };
+		634DAACF17F39B4600AA6460 /* NezFadeCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezFadeCustomSegue.m; sourceTree = "<group>"; };
+		634DAAD117F39BDE00AA6460 /* NezAletterationGameTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationGameTable.h; sourceTree = "<group>"; };
+		634DAAD217F39BDE00AA6460 /* NezAletterationGameTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationGameTable.m; sourceTree = "<group>"; };
+		634DAAD517F3B72C00AA6460 /* NezAletterationBaseGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationBaseGameViewController.h; sourceTree = "<group>"; };
+		634DAAD617F3B72C00AA6460 /* NezAletterationBaseGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationBaseGameViewController.m; sourceTree = "<group>"; };
+		634DAADE17F494AC00AA6460 /* anonymous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = anonymous.png; path = Resources/NamedImages/anonymous.png; sourceTree = "<group>"; };
+		634E7280180E68E30094402A /* NezAletterationGameStateLineStateStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationGameStateLineStateStack.h; path = Player/GameState/NezAletterationGameStateLineStateStack.h; sourceTree = "<group>"; };
+		634E7281180E68E30094402A /* NezAletterationGameStateLineStateStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationGameStateLineStateStack.m; path = Player/GameState/NezAletterationGameStateLineStateStack.m; sourceTree = "<group>"; };
+		635021E617F9E0FC009256A1 /* NezRandom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = NezRandom.c; path = Random/NezRandom.c; sourceTree = "<group>"; };
+		635021E817F9E113009256A1 /* NezRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NezRandom.h; path = Random/NezRandom.h; sourceTree = "<group>"; };
+		635021E917FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationSinglePlayerGameViewController.h; sourceTree = "<group>"; };
+		635021EA17FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationSinglePlayerGameViewController.m; sourceTree = "<group>"; };
+		635021ED17FA3F8C009256A1 /* NezAletterationPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationPlayer.h; path = Player/NezAletterationPlayer.h; sourceTree = "<group>"; };
+		635021EE17FA3F8C009256A1 /* NezAletterationPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationPlayer.m; path = Player/NezAletterationPlayer.m; sourceTree = "<group>"; };
+		6351002B17EEB199003C3B07 /* Textures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Textures; path = Resources/Textures; sourceTree = "<group>"; };
+		6352188017F2043900F20784 /* NezAletterationGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationGameBoard.h; sourceTree = "<group>"; };
+		6352188117F2043900F20784 /* NezAletterationGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationGameBoard.m; sourceTree = "<group>"; };
+		6352188217F2043900F20784 /* NezAletterationLetterBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationLetterBlock.h; sourceTree = "<group>"; };
+		6352188317F2043900F20784 /* NezAletterationLetterBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationLetterBlock.m; sourceTree = "<group>"; };
+		6352188417F2043900F20784 /* NezAletterationLetterStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationLetterStack.h; sourceTree = "<group>"; };
+		6352188517F2043900F20784 /* NezAletterationLetterStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationLetterStack.m; sourceTree = "<group>"; };
+		6352188617F2043900F20784 /* NezAletterationLetterStackLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationLetterStackLabel.h; sourceTree = "<group>"; };
+		6352188717F2043900F20784 /* NezAletterationLetterStackLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationLetterStackLabel.m; sourceTree = "<group>"; };
+		6352188817F2043900F20784 /* NezAletterationWordLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationWordLine.h; sourceTree = "<group>"; };
+		6352188917F2043900F20784 /* NezAletterationWordLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationWordLine.m; sourceTree = "<group>"; };
+		6352188B17F2043900F20784 /* NezAletterationGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationGraphics.h; sourceTree = "<group>"; };
+		6352188C17F2043900F20784 /* NezAletterationGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationGraphics.m; sourceTree = "<group>"; };
+		6352189017F2043900F20784 /* NezAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAnimation.h; sourceTree = "<group>"; };
+		6352189117F2043900F20784 /* NezAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAnimation.m; sourceTree = "<group>"; };
+		6352189217F2043900F20784 /* NezAnimationEasingFunction.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NezAnimationEasingFunction.c; sourceTree = "<group>"; };
+		6352189317F2043900F20784 /* NezAnimationEasingFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAnimationEasingFunction.h; sourceTree = "<group>"; };
+		6352189417F2043900F20784 /* NezAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAnimator.h; sourceTree = "<group>"; };
+		6352189517F2043900F20784 /* NezAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAnimator.m; sourceTree = "<group>"; };
+		6352189917F2043900F20784 /* NezCubicBezier3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezCubicBezier3d.h; sourceTree = "<group>"; };
+		6352189A17F2043900F20784 /* NezCubicBezier3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezCubicBezier3d.m; sourceTree = "<group>"; };
+		6352189B17F2043900F20784 /* NezGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGeometry.h; sourceTree = "<group>"; };
+		6352189C17F2043900F20784 /* NezGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGeometry.m; sourceTree = "<group>"; };
+		6352189D17F2043900F20784 /* NezRay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezRay.h; sourceTree = "<group>"; };
+		6352189E17F2043900F20784 /* NezRay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezRay.m; sourceTree = "<group>"; };
+		635218B017F2043900F20784 /* NezSimpleObjLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezSimpleObjLoader.h; sourceTree = "<group>"; };
+		635218B117F2043900F20784 /* NezSimpleObjLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezSimpleObjLoader.m; sourceTree = "<group>"; };
+		635218B217F2043900F20784 /* NezAletterationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationAppDelegate.h; sourceTree = "<group>"; };
+		635218B317F2043900F20784 /* NezAletterationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationAppDelegate.m; sourceTree = "<group>"; };
+		635218B717F2043900F20784 /* NezGLSLCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGLSLCompiler.h; sourceTree = "<group>"; };
+		635218B817F2043900F20784 /* NezGLSLCompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGLSLCompiler.m; sourceTree = "<group>"; };
+		635218B917F2043900F20784 /* NezGLSLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGLSLProgram.h; sourceTree = "<group>"; };
+		635218BA17F2043900F20784 /* NezGLSLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGLSLProgram.m; sourceTree = "<group>"; };
+		635218D517F2062400F20784 /* NezMaterials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezMaterials.h; sourceTree = "<group>"; };
+		635218D617F2062400F20784 /* NezMaterials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezMaterials.m; sourceTree = "<group>"; };
+		635218D817F2150C00F20784 /* Materials */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Materials; path = Resources/Materials; sourceTree = "<group>"; };
+		635218DE17F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationNextGameBoard.h; path = Animation/NezAletterationAnimationNextGameBoard.h; sourceTree = "<group>"; };
+		635218DF17F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationNextGameBoard.m; path = Animation/NezAletterationAnimationNextGameBoard.m; sourceTree = "<group>"; };
+		6353991217F349CF000C24E3 /* NezAletterationGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationGLKViewController.h; sourceTree = "<group>"; };
+		6353991317F349CF000C24E3 /* NezAletterationGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationGLKViewController.m; sourceTree = "<group>"; };
+		6353991517F34A53000C24E3 /* NezAletterationSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationSplashViewController.h; sourceTree = "<group>"; };
+		6353991617F34A53000C24E3 /* NezAletterationSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationSplashViewController.m; sourceTree = "<group>"; };
+		6358A11A17ECD020003DE78F /* UpdateNezGLSLProgram.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = UpdateNezGLSLProgram.rb; sourceTree = "<group>"; };
+		6358A13E17ED3207003DE78F /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = Resources/Models; sourceTree = "<group>"; };
+		635A33AB17ECCDA200A69F27 /* Aletteration3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aletteration3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635A33AE17ECCDA200A69F27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		635A33B017ECCDA200A69F27 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		635A33B217ECCDA200A69F27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		635A33B417ECCDA200A69F27 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		635A33B617ECCDA200A69F27 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		635A33BA17ECCDA200A69F27 /* Aletteration3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aletteration3-Info.plist"; sourceTree = "<group>"; };
+		635A33BC17ECCDA200A69F27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		635A33BE17ECCDA200A69F27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		635A33C017ECCDA200A69F27 /* Aletteration3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aletteration3-Prefix.pch"; sourceTree = "<group>"; };
+		635A33C517ECCDA200A69F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		635A33C817ECCDA200A69F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		635A33D117ECCDA200A69F27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		635A33D717ECCDA200A69F27 /* Aletteration3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aletteration3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635A33D817ECCDA200A69F27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		635A33E017ECCDA200A69F27 /* Aletteration3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aletteration3Tests-Info.plist"; sourceTree = "<group>"; };
+		635A33E217ECCDA200A69F27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		635A33E417ECCDA200A69F27 /* Aletteration3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aletteration3Tests.m; sourceTree = "<group>"; };
+		635A33FC17ECCE8500A69F27 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders; path = Resources/Shaders; sourceTree = "<group>"; };
+		635C047718184415000E0C84 /* NezAletterationBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationBox.h; sourceTree = "<group>"; };
+		635C047818184415000E0C84 /* NezAletterationBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationBox.m; sourceTree = "<group>"; };
+		635C047A18184554000E0C84 /* NezAletterationLid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationLid.h; sourceTree = "<group>"; };
+		635C047B18184554000E0C84 /* NezAletterationLid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationLid.m; sourceTree = "<group>"; };
+		635D27F91853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObjectGeometryParticle.h; sourceTree = "<group>"; };
+		635D27FA1853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObjectGeometryParticle.m; sourceTree = "<group>"; };
+		635D45D018513145001A3A62 /* a-black-lowercase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-black-lowercase.png"; path = "Resources/NamedImages/a-black-lowercase.png"; sourceTree = "<group>"; };
+		635D45D118513145001A3A62 /* a-black-lowercase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-black-lowercase@2x.png"; path = "Resources/NamedImages/a-black-lowercase@2x.png"; sourceTree = "<group>"; };
+		635D45D218513145001A3A62 /* a-black-uppercase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-black-uppercase.png"; path = "Resources/NamedImages/a-black-uppercase.png"; sourceTree = "<group>"; };
+		635D45D318513145001A3A62 /* a-black-uppercase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-black-uppercase@2x.png"; path = "Resources/NamedImages/a-black-uppercase@2x.png"; sourceTree = "<group>"; };
+		635D45D418513145001A3A62 /* a-white-lowercase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-white-lowercase.png"; path = "Resources/NamedImages/a-white-lowercase.png"; sourceTree = "<group>"; };
+		635D45D518513145001A3A62 /* a-white-lowercase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-white-lowercase@2x.png"; path = "Resources/NamedImages/a-white-lowercase@2x.png"; sourceTree = "<group>"; };
+		635D45D618513145001A3A62 /* a-white-uppercase.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-white-uppercase.png"; path = "Resources/NamedImages/a-white-uppercase.png"; sourceTree = "<group>"; };
+		635D45D718513145001A3A62 /* a-white-uppercase@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "a-white-uppercase@2x.png"; path = "Resources/NamedImages/a-white-uppercase@2x.png"; sourceTree = "<group>"; };
+		6369844C181776730034D89D /* NezGLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGLCamera.h; sourceTree = "<group>"; };
+		6369844D181776730034D89D /* NezGLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGLCamera.m; sourceTree = "<group>"; };
+		636BEFAD1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectTextureVertex.h; sourceTree = "<group>"; };
+		636BEFAE1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectTextureVertex.m; sourceTree = "<group>"; };
+		636BEFB01847D75800D8C143 /* NezAletterationTextureBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationTextureBlock.h; sourceTree = "<group>"; };
+		636BEFB11847D75800D8C143 /* NezAletterationTextureBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationTextureBlock.m; sourceTree = "<group>"; };
+		636BEFB31847D9EE00D8C143 /* NezVertexArrayObjectTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObjectTexture.h; sourceTree = "<group>"; };
+		636BEFB41847D9EE00D8C143 /* NezVertexArrayObjectTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObjectTexture.m; sourceTree = "<group>"; };
+		6373437B18032CA7002A3BBD /* NezModelVertexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezModelVertexArray.h; sourceTree = "<group>"; };
+		6373437C18032CA7002A3BBD /* NezModelVertexArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezModelVertexArray.m; sourceTree = "<group>"; };
+		6373437F18032E62002A3BBD /* NezVertexBufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObject.h; sourceTree = "<group>"; };
+		6373438018032E62002A3BBD /* NezVertexBufferObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObject.m; sourceTree = "<group>"; };
+		637343851803315D002A3BBD /* NezVertexTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NezVertexTypes.h; sourceTree = "<group>"; };
+		6373438918033818002A3BBD /* NezVertexBufferObjectLitVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectLitVertex.h; sourceTree = "<group>"; };
+		6373438A18033818002A3BBD /* NezVertexBufferObjectLitVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectLitVertex.m; sourceTree = "<group>"; };
+		63734395180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectLitInstanceTextureVertex.h; sourceTree = "<group>"; };
+		63734396180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectLitInstanceTextureVertex.m; sourceTree = "<group>"; };
+		637343991803429E002A3BBD /* NezInstanceAttributeBufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObject.h; sourceTree = "<group>"; };
+		6373439A1803429E002A3BBD /* NezInstanceAttributeBufferObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObject.m; sourceTree = "<group>"; };
+		6373439B1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObjectColor.h; sourceTree = "<group>"; };
+		6373439C1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObjectColor.m; sourceTree = "<group>"; };
+		637343A0180342EE002A3BBD /* NezInstanceAttributeTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeTypes.h; sourceTree = "<group>"; };
+		637343A118034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectInstanceTextureVertex.h; sourceTree = "<group>"; };
+		637343A218034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectInstanceTextureVertex.m; sourceTree = "<group>"; };
+		637343A4180344DD002A3BBD /* NezVertexBufferObjectVertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexBufferObjectVertex.h; sourceTree = "<group>"; };
+		637343A5180344DD002A3BBD /* NezVertexBufferObjectVertex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexBufferObjectVertex.m; sourceTree = "<group>"; };
+		637343A718034587002A3BBD /* UpdateVertexBufferObjectClasses.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = UpdateVertexBufferObjectClasses.rb; path = Aletteration3/UpdateVertexBufferObjectClasses.rb; sourceTree = SOURCE_ROOT; };
+		637343A918035444002A3BBD /* UpdateInstanceAttributeBufferObjectClasses.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = UpdateInstanceAttributeBufferObjectClasses.rb; path = Aletteration3/UpdateInstanceAttributeBufferObjectClasses.rb; sourceTree = SOURCE_ROOT; };
+		637343AB18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObjectColorTexture.h; sourceTree = "<group>"; };
+		637343AC18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObjectColorTexture.m; sourceTree = "<group>"; };
+		637343AD18035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObjectTexture.h; sourceTree = "<group>"; };
+		637343AE18035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObjectTexture.m; sourceTree = "<group>"; };
+		637343B118035F64002A3BBD /* NezVertexArrayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezVertexArrayObject.h; sourceTree = "<group>"; };
+		637343B218035F64002A3BBD /* NezVertexArrayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezVertexArrayObject.m; sourceTree = "<group>"; };
+		637343B418036438002A3BBD /* NezInstanceVertexArrayObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObject.h; sourceTree = "<group>"; };
+		637343B518036438002A3BBD /* NezInstanceVertexArrayObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObject.m; sourceTree = "<group>"; };
+		637343B718037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectLitColor.h; sourceTree = "<group>"; };
+		637343B818037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectLitColor.m; sourceTree = "<group>"; };
+		637343BA18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectLitColorTexture.h; sourceTree = "<group>"; };
+		637343BB18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectLitColorTexture.m; sourceTree = "<group>"; };
+		637343BD1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectColor.h; sourceTree = "<group>"; };
+		637343BE1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectColor.m; sourceTree = "<group>"; };
+		637343C018039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectTexture.h; sourceTree = "<group>"; };
+		637343C118039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectTexture.m; sourceTree = "<group>"; };
+		638427A718343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRoundCornerTagImageView.h; sourceTree = "<group>"; };
+		638427A818343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRoundCornerTagImageView.m; sourceTree = "<group>"; };
+		638427AA18348E7500AD05E2 /* vol0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vol0.png; path = Resources/NamedImages/vol0.png; sourceTree = "<group>"; };
+		638427AB18348E7500AD05E2 /* vol0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vol0@2x.png"; path = "Resources/NamedImages/vol0@2x.png"; sourceTree = "<group>"; };
+		638427AC18348E7500AD05E2 /* vol1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vol1.png; path = Resources/NamedImages/vol1.png; sourceTree = "<group>"; };
+		638427AD18348E7500AD05E2 /* vol1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vol1@2x.png"; path = "Resources/NamedImages/vol1@2x.png"; sourceTree = "<group>"; };
+		638427AE18348E7500AD05E2 /* vol2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vol2.png; path = Resources/NamedImages/vol2.png; sourceTree = "<group>"; };
+		638427AF18348E7500AD05E2 /* vol2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vol2@2x.png"; path = "Resources/NamedImages/vol2@2x.png"; sourceTree = "<group>"; };
+		638427B018348E7500AD05E2 /* vol3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vol3.png; path = Resources/NamedImages/vol3.png; sourceTree = "<group>"; };
+		638427B118348E7500AD05E2 /* vol3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "vol3@2x.png"; path = "Resources/NamedImages/vol3@2x.png"; sourceTree = "<group>"; };
+		6394999217FF55E400857C6C /* NezGLFrameBufferObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezGLFrameBufferObject.h; sourceTree = "<group>"; };
+		6394999317FF55E400857C6C /* NezGLFrameBufferObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezGLFrameBufferObject.m; sourceTree = "<group>"; };
+		63C01D4E185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceAttributeBufferObjectColorTintTexture.h; sourceTree = "<group>"; };
+		63C01D4F185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceAttributeBufferObjectColorTintTexture.m; sourceTree = "<group>"; };
+		63C01D51185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezInstanceVertexArrayObjectLitColorTintTexture.h; sourceTree = "<group>"; };
+		63C01D52185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezInstanceVertexArrayObjectLitColorTintTexture.m; sourceTree = "<group>"; };
+		63C18A091813221D00D26257 /* NezAletterationGameCenterPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationGameCenterPlayer.h; path = Player/NezAletterationGameCenterPlayer.h; sourceTree = "<group>"; };
+		63C18A0A1813221D00D26257 /* NezAletterationGameCenterPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationGameCenterPlayer.m; path = Player/NezAletterationGameCenterPlayer.m; sourceTree = "<group>"; };
+		63C54173181D95D20076B5A7 /* NezAletterationAnimationBeginGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationAnimationBeginGame.h; path = Animation/NezAletterationAnimationBeginGame.h; sourceTree = "<group>"; };
+		63C54174181D95D20076B5A7 /* NezAletterationAnimationBeginGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationAnimationBeginGame.m; path = Animation/NezAletterationAnimationBeginGame.m; sourceTree = "<group>"; };
+		63D7E8B217F7682900754BE8 /* Pause-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pause-Icon.png"; path = "Resources/NamedImages/Pause-Icon.png"; sourceTree = "<group>"; };
+		63D7E8B317F7682900754BE8 /* Pause-Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Pause-Icon@2x.png"; path = "Resources/NamedImages/Pause-Icon@2x.png"; sourceTree = "<group>"; };
+		63DA127517FB455F0024C293 /* NezAletterationGameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationGameState.h; path = Player/GameState/NezAletterationGameState.h; sourceTree = "<group>"; };
+		63DA127617FB455F0024C293 /* NezAletterationGameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationGameState.m; path = Player/GameState/NezAletterationGameState.m; sourceTree = "<group>"; };
+		63DA127817FB45B40024C293 /* NezAletterationGameStateLineState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationGameStateLineState.h; path = Player/GameState/NezAletterationGameStateLineState.h; sourceTree = "<group>"; };
+		63DA127917FB45B40024C293 /* NezAletterationGameStateLineState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationGameStateLineState.m; path = Player/GameState/NezAletterationGameStateLineState.m; sourceTree = "<group>"; };
+		63DA127B17FB46090024C293 /* NezAletterationGameStateRetiredWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationGameStateRetiredWord.h; path = Player/GameState/NezAletterationGameStateRetiredWord.h; sourceTree = "<group>"; };
+		63DA127C17FB46090024C293 /* NezAletterationGameStateRetiredWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationGameStateRetiredWord.m; path = Player/GameState/NezAletterationGameStateRetiredWord.m; sourceTree = "<group>"; };
+		63DA127E17FB46C50024C293 /* NezAletterationGameStateTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationGameStateTurn.h; path = Player/GameState/NezAletterationGameStateTurn.h; sourceTree = "<group>"; };
+		63DA127F17FB46C50024C293 /* NezAletterationGameStateTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationGameStateTurn.m; path = Player/GameState/NezAletterationGameStateTurn.m; sourceTree = "<group>"; };
+		63DA128217FB52880024C293 /* NezAletterationSQLiteDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationSQLiteDictionary.h; sourceTree = "<group>"; };
+		63DA128317FB52880024C293 /* NezAletterationSQLiteDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationSQLiteDictionary.m; sourceTree = "<group>"; };
+		63DA128417FB52880024C293 /* NezSQLite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NezSQLite.c; sourceTree = "<group>"; };
+		63DA128517FB52880024C293 /* NezSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezSQLite.h; sourceTree = "<group>"; };
+		63DA128617FB52880024C293 /* NezSQLiteHighScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezSQLiteHighScores.h; sourceTree = "<group>"; };
+		63DA128717FB52880024C293 /* NezSQLiteHighScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezSQLiteHighScores.m; sourceTree = "<group>"; };
+		63DA128B17FB52AF0024C293 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		63DA128D17FB537D0024C293 /* Databases */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Databases; path = Resources/Databases; sourceTree = "<group>"; };
+		63F92533180731DF001DD535 /* NezAletterationSaveGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NezAletterationSaveGame.h; path = Player/GameState/NezAletterationSaveGame.h; sourceTree = "<group>"; };
+		63F92534180731DF001DD535 /* NezAletterationSaveGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NezAletterationSaveGame.m; path = Player/GameState/NezAletterationSaveGame.m; sourceTree = "<group>"; };
+		63FF9B031805FA57009B91B2 /* NezAletterationRetiredWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRetiredWord.h; sourceTree = "<group>"; };
+		63FF9B041805FA57009B91B2 /* NezAletterationRetiredWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRetiredWord.m; sourceTree = "<group>"; };
+		63FF9B0618061B77009B91B2 /* NezAletterationRetiredWordBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NezAletterationRetiredWordBoard.h; sourceTree = "<group>"; };
+		63FF9B0718061B77009B91B2 /* NezAletterationRetiredWordBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NezAletterationRetiredWordBoard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635A33A817ECCDA200A69F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DA128C17FB52AF0024C293 /* libsqlite3.dylib in Frameworks */,
+				634DAACB17F382C200AA6460 /* AVFoundation.framework in Frameworks */,
+				634DAACC17F382C200AA6460 /* OpenAL.framework in Frameworks */,
+				635A33B717ECCDA200A69F27 /* OpenGLES.framework in Frameworks */,
+				635A33B117ECCDA200A69F27 /* CoreGraphics.framework in Frameworks */,
+				635A33B317ECCDA200A69F27 /* UIKit.framework in Frameworks */,
+				635A33B517ECCDA200A69F27 /* GLKit.framework in Frameworks */,
+				635A33AF17ECCDA200A69F27 /* Foundation.framework in Frameworks */,
+				631B066318414E460020C0B9 /* StoreKit.framework in Frameworks */,
+				63042A741891AAEE0089BDAC /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635A33D417ECCDA200A69F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635A33D917ECCDA200A69F27 /* XCTest.framework in Frameworks */,
+				635A33DB17ECCDA200A69F27 /* UIKit.framework in Frameworks */,
+				635A33DA17ECCDA200A69F27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63137EF2182810B3005AC3E5 /* StateRestoration */ = {
+			isa = PBXGroup;
+			children = (
+				6329253C1829775A0020C6DC /* NezRestorable.h */,
+				63137EF3182810B3005AC3E5 /* NezRestorableObject.h */,
+				63137EF4182810B3005AC3E5 /* NezRestorableObject.m */,
+			);
+			path = StateRestoration;
+			sourceTree = "<group>";
+		};
+		631B065E18414C100020C0B9 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				631B065F18414C110020C0B9 /* NezStoreKit.h */,
+				631B066018414C110020C0B9 /* NezStoreKit.m */,
+				63042A751891BB100089BDAC /* NezStoreKitProduct.h */,
+				63042A761891BB100089BDAC /* NezStoreKitProduct.m */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+		631B06641841516B0020C0B9 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				631B0668184151F10020C0B9 /* NezAletterationStoreKit.h */,
+				631B0669184151F10020C0B9 /* NezAletterationStoreKit.m */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+		631C02D11831CA6400B2828B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				631C02D21831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.h */,
+				631C02D31831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.m */,
+				631C02D41831CA6400B2828B /* NezToolbarBackgroundView.h */,
+				631C02D51831CA6400B2828B /* NezToolbarBackgroundView.m */,
+				631C02D81831CA8600B2828B /* NezAletterationRoundCornerTagView.h */,
+				631C02D91831CA8600B2828B /* NezAletterationRoundCornerTagView.m */,
+				638427A718343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.h */,
+				638427A818343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.m */,
+				6323C351183543C30018661B /* UIView+ExtraContraints.h */,
+				6323C352183543C30018661B /* UIView+ExtraContraints.m */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		632334811812409E0055C534 /* GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				632334821812409E0055C534 /* NezGameCenter.h */,
+				632334831812409E0055C534 /* NezGameCenter.m */,
+			);
+			path = GameCenter;
+			sourceTree = "<group>";
+		};
+		6349C9B817F88C9D007E38BD /* AppleImageCategories */ = {
+			isa = PBXGroup;
+			children = (
+				6349C9B917F88C9D007E38BD /* UIImage+ImageEffects.h */,
+				6349C9BA17F88C9D007E38BD /* UIImage+ImageEffects.m */,
+			);
+			path = AppleImageCategories;
+			sourceTree = "<group>";
+		};
+		634DAAB617F35DBF00AA6460 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				634DAAB717F35DBF00AA6460 /* NezGCD.h */,
+				634DAAB817F35DBF00AA6460 /* NezGCD.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		634DAABA17F379D200AA6460 /* NamedImages */ = {
+			isa = PBXGroup;
+			children = (
+				635D45D018513145001A3A62 /* a-black-lowercase.png */,
+				635D45D118513145001A3A62 /* a-black-lowercase@2x.png */,
+				635D45D218513145001A3A62 /* a-black-uppercase.png */,
+				635D45D318513145001A3A62 /* a-black-uppercase@2x.png */,
+				635D45D418513145001A3A62 /* a-white-lowercase.png */,
+				635D45D518513145001A3A62 /* a-white-lowercase@2x.png */,
+				635D45D618513145001A3A62 /* a-white-uppercase.png */,
+				635D45D718513145001A3A62 /* a-white-uppercase@2x.png */,
+				6349C9B417F88609007E38BD /* aletterationLogo.png */,
+				6349C9B517F88609007E38BD /* aletterationLogo@2x.png */,
+				634DAADE17F494AC00AA6460 /* anonymous.png */,
+				634DAABB17F37A2300AA6460 /* bowlerdahl_iPad.png */,
+				634DAABC17F37A2300AA6460 /* bowlerdahl_iPad@2x.png */,
+				634DAABD17F37A2300AA6460 /* bowlerdahl.png */,
+				634DAABE17F37A2300AA6460 /* bowlerdahl@2x.png */,
+				63D7E8B217F7682900754BE8 /* Pause-Icon.png */,
+				63D7E8B317F7682900754BE8 /* Pause-Icon@2x.png */,
+				638427AA18348E7500AD05E2 /* vol0.png */,
+				638427AB18348E7500AD05E2 /* vol0@2x.png */,
+				638427AC18348E7500AD05E2 /* vol1.png */,
+				638427AD18348E7500AD05E2 /* vol1@2x.png */,
+				638427AE18348E7500AD05E2 /* vol2.png */,
+				638427AF18348E7500AD05E2 /* vol2@2x.png */,
+				638427B018348E7500AD05E2 /* vol3.png */,
+				638427B118348E7500AD05E2 /* vol3@2x.png */,
+			);
+			name = NamedImages;
+			sourceTree = "<group>";
+		};
+		634DAAC317F381D600AA6460 /* OpenAL */ = {
+			isa = PBXGroup;
+			children = (
+				634DAAC617F3824700AA6460 /* NezOpenAL.h */,
+				634DAAC717F3824700AA6460 /* NezOpenAL.m */,
+			);
+			name = OpenAL;
+			sourceTree = "<group>";
+		};
+		634DAACD17F39B4600AA6460 /* CustomSeques */ = {
+			isa = PBXGroup;
+			children = (
+				634DAACE17F39B4600AA6460 /* NezFadeCustomSegue.h */,
+				634DAACF17F39B4600AA6460 /* NezFadeCustomSegue.m */,
+			);
+			path = CustomSeques;
+			sourceTree = "<group>";
+		};
+		635021E517F9E0CD009256A1 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				635021E817F9E113009256A1 /* NezRandom.h */,
+				635021E617F9E0FC009256A1 /* NezRandom.c */,
+			);
+			name = Random;
+			sourceTree = "<group>";
+		};
+		635021EC17FA3F57009256A1 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				635021ED17FA3F8C009256A1 /* NezAletterationPlayer.h */,
+				635021EE17FA3F8C009256A1 /* NezAletterationPlayer.m */,
+				63C18A091813221D00D26257 /* NezAletterationGameCenterPlayer.h */,
+				63C18A0A1813221D00D26257 /* NezAletterationGameCenterPlayer.m */,
+				632DF76F18315DD800AC65B5 /* NezAletterationPlayerPrefs.h */,
+				632DF77018315DD800AC65B5 /* NezAletterationPlayerPrefs.m */,
+				63DA127417FB452A0024C293 /* GameState */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		6352187D17F2043900F20784 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6352187E17F2043900F20784 /* Aletteration */,
+				6352188F17F2043900F20784 /* Animation */,
+				6349C9B817F88C9D007E38BD /* AppleImageCategories */,
+				634DAACD17F39B4600AA6460 /* CustomSeques */,
+				632334811812409E0055C534 /* GameCenter */,
+				634DAAB617F35DBF00AA6460 /* GCD */,
+				6352189817F2043900F20784 /* Geometry */,
+				6352189F17F2043900F20784 /* Graphics */,
+				635218AD17F2043900F20784 /* ModelLoaders */,
+				635218B417F2043900F20784 /* OpenGL */,
+				634DAAC317F381D600AA6460 /* OpenAL */,
+				635021E517F9E0CD009256A1 /* Random */,
+				63137EF2182810B3005AC3E5 /* StateRestoration */,
+				631B065E18414C100020C0B9 /* StoreKit */,
+				635218B217F2043900F20784 /* NezAletterationAppDelegate.h */,
+				635218B317F2043900F20784 /* NezAletterationAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6352187E17F2043900F20784 /* Aletteration */ = {
+			isa = PBXGroup;
+			children = (
+				635218DD17F2B09700F20784 /* Animation */,
+				6352187F17F2043900F20784 /* Geometry */,
+				6352188A17F2043900F20784 /* Graphics */,
+				635021EC17FA3F57009256A1 /* Player */,
+				63DA128117FB52880024C293 /* SQLite */,
+				631B06641841516B0020C0B9 /* StoreKit */,
+				6353991117F349CF000C24E3 /* ViewControllers */,
+			);
+			path = Aletteration;
+			sourceTree = "<group>";
+		};
+		6352187F17F2043900F20784 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				63172896182773950028AE49 /* NezAletterationRestorableGeometry.h */,
+				63172897182773950028AE49 /* NezAletterationRestorableGeometry.m */,
+				634DAAD117F39BDE00AA6460 /* NezAletterationGameTable.h */,
+				634DAAD217F39BDE00AA6460 /* NezAletterationGameTable.m */,
+				6352188017F2043900F20784 /* NezAletterationGameBoard.h */,
+				6352188117F2043900F20784 /* NezAletterationGameBoard.m */,
+				6352188217F2043900F20784 /* NezAletterationLetterBlock.h */,
+				6352188317F2043900F20784 /* NezAletterationLetterBlock.m */,
+				634CD0ED181B6C6100D04FC9 /* NezAletterationLetterGroup.h */,
+				634CD0EE181B6C6100D04FC9 /* NezAletterationLetterGroup.m */,
+				6352188417F2043900F20784 /* NezAletterationLetterStack.h */,
+				6352188517F2043900F20784 /* NezAletterationLetterStack.m */,
+				6352188617F2043900F20784 /* NezAletterationLetterStackLabel.h */,
+				6352188717F2043900F20784 /* NezAletterationLetterStackLabel.m */,
+				6352188817F2043900F20784 /* NezAletterationWordLine.h */,
+				6352188917F2043900F20784 /* NezAletterationWordLine.m */,
+				63FF9B031805FA57009B91B2 /* NezAletterationRetiredWord.h */,
+				63FF9B041805FA57009B91B2 /* NezAletterationRetiredWord.m */,
+				63FF9B0618061B77009B91B2 /* NezAletterationRetiredWordBoard.h */,
+				63FF9B0718061B77009B91B2 /* NezAletterationRetiredWordBoard.m */,
+				635C047718184415000E0C84 /* NezAletterationBox.h */,
+				635C047818184415000E0C84 /* NezAletterationBox.m */,
+				634CD0EA181B6B2300D04FC9 /* NezAletterationLetterBox.h */,
+				634CD0EB181B6B2300D04FC9 /* NezAletterationLetterBox.m */,
+				635C047A18184554000E0C84 /* NezAletterationLid.h */,
+				635C047B18184554000E0C84 /* NezAletterationLid.m */,
+				636BEFB01847D75800D8C143 /* NezAletterationTextureBlock.h */,
+				636BEFB11847D75800D8C143 /* NezAletterationTextureBlock.m */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		6352188A17F2043900F20784 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				6352188B17F2043900F20784 /* NezAletterationGraphics.h */,
+				6352188C17F2043900F20784 /* NezAletterationGraphics.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		6352188F17F2043900F20784 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				6352189017F2043900F20784 /* NezAnimation.h */,
+				6352189117F2043900F20784 /* NezAnimation.m */,
+				6352189317F2043900F20784 /* NezAnimationEasingFunction.h */,
+				6352189217F2043900F20784 /* NezAnimationEasingFunction.c */,
+				6352189417F2043900F20784 /* NezAnimator.h */,
+				6352189517F2043900F20784 /* NezAnimator.m */,
+				630D8203182EFA1600CC6848 /* NezAnimationPath2d.h */,
+				630D8204182EFA1600CC6848 /* NezAnimationPath2d.m */,
+				634CD0E7181B159B00D04FC9 /* NezAnimationPath3d.h */,
+				634CD0E8181B159B00D04FC9 /* NezAnimationPath3d.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		6352189817F2043900F20784 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				6352189B17F2043900F20784 /* NezGeometry.h */,
+				6352189C17F2043900F20784 /* NezGeometry.m */,
+				6352189D17F2043900F20784 /* NezRay.h */,
+				6352189E17F2043900F20784 /* NezRay.m */,
+				630D8200182EF8DB00CC6848 /* NezPath2d.h */,
+				630D8201182EF8DB00CC6848 /* NezPath2d.m */,
+				630D81FD182EF80400CC6848 /* NezCubicBezier2d.h */,
+				630D81FE182EF80400CC6848 /* NezCubicBezier2d.m */,
+				634CD0E4181B14A700D04FC9 /* NezPath3d.h */,
+				634CD0E5181B14A700D04FC9 /* NezPath3d.m */,
+				6352189917F2043900F20784 /* NezCubicBezier3d.h */,
+				6352189A17F2043900F20784 /* NezCubicBezier3d.m */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		6352189F17F2043900F20784 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				635218D517F2062400F20784 /* NezMaterials.h */,
+				635218D617F2062400F20784 /* NezMaterials.m */,
+				637343981803429E002A3BBD /* InstanceAttributeBuffer */,
+				6373437E18032E62002A3BBD /* VertexBuffer */,
+				635218A017F2043900F20784 /* VertexArray */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		635218A017F2043900F20784 /* VertexArray */ = {
+			isa = PBXGroup;
+			children = (
+				637343B118035F64002A3BBD /* NezVertexArrayObject.h */,
+				637343B218035F64002A3BBD /* NezVertexArrayObject.m */,
+				637343B418036438002A3BBD /* NezInstanceVertexArrayObject.h */,
+				637343B518036438002A3BBD /* NezInstanceVertexArrayObject.m */,
+				637343BD1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.h */,
+				637343BE1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.m */,
+				637343B718037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.h */,
+				637343B818037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.m */,
+				637343C018039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.h */,
+				637343C118039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.m */,
+				631CEB00183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.h */,
+				631CEB01183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.m */,
+				637343BA18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.h */,
+				637343BB18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.m */,
+				63C01D51185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.h */,
+				63C01D52185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.m */,
+				636BEFB31847D9EE00D8C143 /* NezVertexArrayObjectTexture.h */,
+				636BEFB41847D9EE00D8C143 /* NezVertexArrayObjectTexture.m */,
+				631E2E671815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.h */,
+				631E2E681815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.m */,
+				6319F595185270860034F547 /* NezVertexArrayObjectEmitter.h */,
+				6319F596185270860034F547 /* NezVertexArrayObjectEmitter.m */,
+				631B1F9E18471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.h */,
+				631B1F9F18471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.m */,
+				631B1FA4184724B500A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.h */,
+				631B1FA5184724B600A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.m */,
+				6319F598185272880034F547 /* NezVertexArrayObjectGeometryEmitter.h */,
+				6319F599185272880034F547 /* NezVertexArrayObjectGeometryEmitter.m */,
+				6315B32018622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.h */,
+				6315B32118622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.m */,
+			);
+			path = VertexArray;
+			sourceTree = "<group>";
+		};
+		635218AD17F2043900F20784 /* ModelLoaders */ = {
+			isa = PBXGroup;
+			children = (
+				635218B017F2043900F20784 /* NezSimpleObjLoader.h */,
+				635218B117F2043900F20784 /* NezSimpleObjLoader.m */,
+				6373437B18032CA7002A3BBD /* NezModelVertexArray.h */,
+				6373437C18032CA7002A3BBD /* NezModelVertexArray.m */,
+			);
+			path = ModelLoaders;
+			sourceTree = "<group>";
+		};
+		635218B417F2043900F20784 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				635218B717F2043900F20784 /* NezGLSLCompiler.h */,
+				635218B817F2043900F20784 /* NezGLSLCompiler.m */,
+				635218B917F2043900F20784 /* NezGLSLProgram.h */,
+				635218BA17F2043900F20784 /* NezGLSLProgram.m */,
+				6394999217FF55E400857C6C /* NezGLFrameBufferObject.h */,
+				6394999317FF55E400857C6C /* NezGLFrameBufferObject.m */,
+				6369844C181776730034D89D /* NezGLCamera.h */,
+				6369844D181776730034D89D /* NezGLCamera.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		635218DD17F2B09700F20784 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				635218DE17F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.h */,
+				635218DF17F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.m */,
+				63C54173181D95D20076B5A7 /* NezAletterationAnimationBeginGame.h */,
+				63C54174181D95D20076B5A7 /* NezAletterationAnimationBeginGame.m */,
+				63229F5B181F299E0086B051 /* NezAletterationAnimationExitGame.h */,
+				63229F5C181F299E0086B051 /* NezAletterationAnimationExitGame.m */,
+				631552D11820534800303988 /* NezAletterationAnimationRetireWord.h */,
+				631552D21820534800303988 /* NezAletterationAnimationRetireWord.m */,
+				631552D41820536300303988 /* NezAletterationAnimationUnretireWord.h */,
+				631552D51820536300303988 /* NezAletterationAnimationUnretireWord.m */,
+				63450BA51821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.h */,
+				63450BA61821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.m */,
+				6326874A182E0A4D0010C14A /* NezAletterationAnimationSlide.h */,
+				6326874B182E0A4D0010C14A /* NezAletterationAnimationSlide.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		6353991117F349CF000C24E3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				631C02D11831CA6400B2828B /* CustomViews */,
+				6349C9C217F8A9E0007E38BD /* NezAletterationNavigationController.h */,
+				6349C9C317F8A9E0007E38BD /* NezAletterationNavigationController.m */,
+				6353991217F349CF000C24E3 /* NezAletterationGLKViewController.h */,
+				6353991317F349CF000C24E3 /* NezAletterationGLKViewController.m */,
+				6353991517F34A53000C24E3 /* NezAletterationSplashViewController.h */,
+				6353991617F34A53000C24E3 /* NezAletterationSplashViewController.m */,
+				6349C9BC17F88CE8007E38BD /* NezAletterationMainMenuViewController.h */,
+				6349C9BD17F88CE8007E38BD /* NezAletterationMainMenuViewController.m */,
+				634DAAD517F3B72C00AA6460 /* NezAletterationBaseGameViewController.h */,
+				634DAAD617F3B72C00AA6460 /* NezAletterationBaseGameViewController.m */,
+				635021E917FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.h */,
+				635021EA17FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.m */,
+				6323C35418354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.h */,
+				6323C35518354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.m */,
+				6323347E18123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.h */,
+				6323347F18123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.m */,
+				63263ED8183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.h */,
+				63263ED9183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.m */,
+				631C02BF1831A14B00B2828B /* NezAletterationPlayerOptionsViewController.h */,
+				631C02C01831A14B00B2828B /* NezAletterationPlayerOptionsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		635A33A217ECCDA200A69F27 = {
+			isa = PBXGroup;
+			children = (
+				635A33B817ECCDA200A69F27 /* Aletteration3 */,
+				635A33DE17ECCDA200A69F27 /* Aletteration3Tests */,
+				635A33AD17ECCDA200A69F27 /* Frameworks */,
+				635A33AC17ECCDA200A69F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635A33AC17ECCDA200A69F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635A33AB17ECCDA200A69F27 /* Aletteration3.app */,
+				635A33D717ECCDA200A69F27 /* Aletteration3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635A33AD17ECCDA200A69F27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63042A731891AAEE0089BDAC /* GameKit.framework */,
+				631B066218414E460020C0B9 /* StoreKit.framework */,
+				63DA128B17FB52AF0024C293 /* libsqlite3.dylib */,
+				634DAAC917F382C200AA6460 /* AVFoundation.framework */,
+				634DAACA17F382C200AA6460 /* OpenAL.framework */,
+				635A33AE17ECCDA200A69F27 /* Foundation.framework */,
+				635A33B017ECCDA200A69F27 /* CoreGraphics.framework */,
+				635A33B217ECCDA200A69F27 /* UIKit.framework */,
+				635A33B417ECCDA200A69F27 /* GLKit.framework */,
+				635A33B617ECCDA200A69F27 /* OpenGLES.framework */,
+				635A33D817ECCDA200A69F27 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		635A33B817ECCDA200A69F27 /* Aletteration3 */ = {
+			isa = PBXGroup;
+			children = (
+				6352187D17F2043900F20784 /* Classes */,
+				635A33C417ECCDA200A69F27 /* Main_iPhone.storyboard */,
+				635A33C717ECCDA200A69F27 /* Main_iPad.storyboard */,
+				6358A11A17ECD020003DE78F /* UpdateNezGLSLProgram.rb */,
+				635A33FB17ECCE5300A69F27 /* Resources */,
+				635A33D117ECCDA200A69F27 /* Images.xcassets */,
+				635A33B917ECCDA200A69F27 /* Supporting Files */,
+			);
+			path = Aletteration3;
+			sourceTree = "<group>";
+		};
+		635A33B917ECCDA200A69F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635A33BA17ECCDA200A69F27 /* Aletteration3-Info.plist */,
+				635A33BB17ECCDA200A69F27 /* InfoPlist.strings */,
+				635A33BE17ECCDA200A69F27 /* main.m */,
+				635A33C017ECCDA200A69F27 /* Aletteration3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635A33DE17ECCDA200A69F27 /* Aletteration3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				635A33E417ECCDA200A69F27 /* Aletteration3Tests.m */,
+				635A33DF17ECCDA200A69F27 /* Supporting Files */,
+			);
+			path = Aletteration3Tests;
+			sourceTree = "<group>";
+		};
+		635A33DF17ECCDA200A69F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				635A33E017ECCDA200A69F27 /* Aletteration3Tests-Info.plist */,
+				635A33E117ECCDA200A69F27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		635A33FB17ECCE5300A69F27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				634DAABA17F379D200AA6460 /* NamedImages */,
+				63DA128D17FB537D0024C293 /* Databases */,
+				635218D817F2150C00F20784 /* Materials */,
+				6358A13E17ED3207003DE78F /* Models */,
+				6351002B17EEB199003C3B07 /* Textures */,
+				635A33FC17ECCE8500A69F27 /* Shaders */,
+				634DAAC417F3820600AA6460 /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6373437E18032E62002A3BBD /* VertexBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				637343A718034587002A3BBD /* UpdateVertexBufferObjectClasses.rb */,
+				637343851803315D002A3BBD /* NezVertexTypes.h */,
+				6373437F18032E62002A3BBD /* NezVertexBufferObject.h */,
+				6373438018032E62002A3BBD /* NezVertexBufferObject.m */,
+				637343A4180344DD002A3BBD /* NezVertexBufferObjectVertex.h */,
+				637343A5180344DD002A3BBD /* NezVertexBufferObjectVertex.m */,
+				6373438918033818002A3BBD /* NezVertexBufferObjectLitVertex.h */,
+				6373438A18033818002A3BBD /* NezVertexBufferObjectLitVertex.m */,
+				636BEFAD1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.h */,
+				636BEFAE1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.m */,
+				631E2E641815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.h */,
+				631E2E651815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.m */,
+				637343A118034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.h */,
+				637343A218034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.m */,
+				63734395180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.h */,
+				63734396180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.m */,
+				6343348F1836B7C70018005F /* NezVertexBufferObjectParticleVertex.h */,
+				634334901836B7C70018005F /* NezVertexBufferObjectParticleVertex.m */,
+			);
+			path = VertexBuffer;
+			sourceTree = "<group>";
+		};
+		637343981803429E002A3BBD /* InstanceAttributeBuffer */ = {
+			isa = PBXGroup;
+			children = (
+				637343A918035444002A3BBD /* UpdateInstanceAttributeBufferObjectClasses.rb */,
+				637343A0180342EE002A3BBD /* NezInstanceAttributeTypes.h */,
+				637343991803429E002A3BBD /* NezInstanceAttributeBufferObject.h */,
+				6373439A1803429E002A3BBD /* NezInstanceAttributeBufferObject.m */,
+				6373439B1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.h */,
+				6373439C1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.m */,
+				637343AB18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.h */,
+				637343AC18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.m */,
+				63C01D4E185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.h */,
+				63C01D4F185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.m */,
+				637343AD18035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.h */,
+				637343AE18035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.m */,
+				6319F59218526DB70034F547 /* NezInstanceAttributeBufferObjectLocation.h */,
+				6319F59318526DB80034F547 /* NezInstanceAttributeBufferObjectLocation.m */,
+				635D27F91853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.h */,
+				635D27FA1853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.m */,
+			);
+			path = InstanceAttributeBuffer;
+			sourceTree = "<group>";
+		};
+		63DA127417FB452A0024C293 /* GameState */ = {
+			isa = PBXGroup;
+			children = (
+				63DA127517FB455F0024C293 /* NezAletterationGameState.h */,
+				63DA127617FB455F0024C293 /* NezAletterationGameState.m */,
+				634E7280180E68E30094402A /* NezAletterationGameStateLineStateStack.h */,
+				634E7281180E68E30094402A /* NezAletterationGameStateLineStateStack.m */,
+				63DA127817FB45B40024C293 /* NezAletterationGameStateLineState.h */,
+				63DA127917FB45B40024C293 /* NezAletterationGameStateLineState.m */,
+				63DA127B17FB46090024C293 /* NezAletterationGameStateRetiredWord.h */,
+				63DA127C17FB46090024C293 /* NezAletterationGameStateRetiredWord.m */,
+				63DA127E17FB46C50024C293 /* NezAletterationGameStateTurn.h */,
+				63DA127F17FB46C50024C293 /* NezAletterationGameStateTurn.m */,
+				63F92533180731DF001DD535 /* NezAletterationSaveGame.h */,
+				63F92534180731DF001DD535 /* NezAletterationSaveGame.m */,
+			);
+			name = GameState;
+			sourceTree = "<group>";
+		};
+		63DA128117FB52880024C293 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				63DA128217FB52880024C293 /* NezAletterationSQLiteDictionary.h */,
+				63DA128317FB52880024C293 /* NezAletterationSQLiteDictionary.m */,
+				63DA128517FB52880024C293 /* NezSQLite.h */,
+				63DA128417FB52880024C293 /* NezSQLite.c */,
+				63DA128617FB52880024C293 /* NezSQLiteHighScores.h */,
+				63DA128717FB52880024C293 /* NezSQLiteHighScores.m */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635A33AA17ECCDA200A69F27 /* Aletteration3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635A33E817ECCDA200A69F27 /* Build configuration list for PBXNativeTarget "Aletteration3" */;
+			buildPhases = (
+				635A33A717ECCDA200A69F27 /* Sources */,
+				635A33A817ECCDA200A69F27 /* Frameworks */,
+				635A33A917ECCDA200A69F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aletteration3;
+			productName = Aletteration3;
+			productReference = 635A33AB17ECCDA200A69F27 /* Aletteration3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635A33D617ECCDA200A69F27 /* Aletteration3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635A33EB17ECCDA200A69F27 /* Build configuration list for PBXNativeTarget "Aletteration3Tests" */;
+			buildPhases = (
+				635A33D317ECCDA200A69F27 /* Sources */,
+				635A33D417ECCDA200A69F27 /* Frameworks */,
+				635A33D517ECCDA200A69F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635A33DD17ECCDA200A69F27 /* PBXTargetDependency */,
+			);
+			name = Aletteration3Tests;
+			productName = Aletteration3Tests;
+			productReference = 635A33D717ECCDA200A69F27 /* Aletteration3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635A33A317ECCDA200A69F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Nez;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "David Nesbitt";
+				TargetAttributes = {
+					635A33AA17ECCDA200A69F27 = {
+						DevelopmentTeam = F73NRP3CQ8;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					635A33D617ECCDA200A69F27 = {
+						TestTargetID = 635A33AA17ECCDA200A69F27;
+					};
+				};
+			};
+			buildConfigurationList = 635A33A617ECCDA200A69F27 /* Build configuration list for PBXProject "Aletteration3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635A33A217ECCDA200A69F27;
+			productRefGroup = 635A33AC17ECCDA200A69F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635A33AA17ECCDA200A69F27 /* Aletteration3 */,
+				635A33D617ECCDA200A69F27 /* Aletteration3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635A33A917ECCDA200A69F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634DAAC017F37A2300AA6460 /* bowlerdahl_iPad@2x.png in Resources */,
+				635D45DB18513145001A3A62 /* a-black-uppercase@2x.png in Resources */,
+				634DAAC117F37A2300AA6460 /* bowlerdahl.png in Resources */,
+				638427B218348E7500AD05E2 /* vol0.png in Resources */,
+				634DAAC217F37A2300AA6460 /* bowlerdahl@2x.png in Resources */,
+				635A33C917ECCDA200A69F27 /* Main_iPad.storyboard in Resources */,
+				635A33C617ECCDA200A69F27 /* Main_iPhone.storyboard in Resources */,
+				638427B418348E7500AD05E2 /* vol1.png in Resources */,
+				638427B518348E7500AD05E2 /* vol1@2x.png in Resources */,
+				638427B818348E7500AD05E2 /* vol3.png in Resources */,
+				638427B918348E7500AD05E2 /* vol3@2x.png in Resources */,
+				638427B718348E7500AD05E2 /* vol2@2x.png in Resources */,
+				635D45D918513145001A3A62 /* a-black-lowercase@2x.png in Resources */,
+				638427B318348E7500AD05E2 /* vol0@2x.png in Resources */,
+				63DA128E17FB537D0024C293 /* Databases in Resources */,
+				638427B618348E7500AD05E2 /* vol2.png in Resources */,
+				63D7E8B417F7682900754BE8 /* Pause-Icon.png in Resources */,
+				635D45DA18513145001A3A62 /* a-black-uppercase.png in Resources */,
+				635A33D217ECCDA200A69F27 /* Images.xcassets in Resources */,
+				634DAAC517F3820600AA6460 /* Sounds in Resources */,
+				6349C9B717F88609007E38BD /* aletterationLogo@2x.png in Resources */,
+				6349C9B617F88609007E38BD /* aletterationLogo.png in Resources */,
+				637343A818034587002A3BBD /* UpdateVertexBufferObjectClasses.rb in Resources */,
+				6358A13F17ED3207003DE78F /* Models in Resources */,
+				63D7E8B517F7682900754BE8 /* Pause-Icon@2x.png in Resources */,
+				6351002C17EEB199003C3B07 /* Textures in Resources */,
+				635D45DD18513145001A3A62 /* a-white-lowercase@2x.png in Resources */,
+				634DAABF17F37A2300AA6460 /* bowlerdahl_iPad.png in Resources */,
+				6358A11B17ECD020003DE78F /* UpdateNezGLSLProgram.rb in Resources */,
+				635D45DC18513145001A3A62 /* a-white-lowercase.png in Resources */,
+				635D45D818513145001A3A62 /* a-black-lowercase.png in Resources */,
+				635A33BD17ECCDA200A69F27 /* InfoPlist.strings in Resources */,
+				637343AA18035444002A3BBD /* UpdateInstanceAttributeBufferObjectClasses.rb in Resources */,
+				634DAADF17F494AC00AA6460 /* anonymous.png in Resources */,
+				635218D917F2150C00F20784 /* Materials in Resources */,
+				635D45DF18513145001A3A62 /* a-white-uppercase@2x.png in Resources */,
+				635A33FD17ECCE8500A69F27 /* Shaders in Resources */,
+				635D45DE18513145001A3A62 /* a-white-uppercase.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635A33D517ECCDA200A69F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635A33E317ECCDA200A69F27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635A33A717ECCDA200A69F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6353991417F349CF000C24E3 /* NezAletterationGLKViewController.m in Sources */,
+				635218C217F2043900F20784 /* NezAnimation.m in Sources */,
+				631E2E661815E154002F5465 /* NezVertexBufferObjectLitTextureVertex.m in Sources */,
+				635218C317F2043900F20784 /* NezAnimationEasingFunction.c in Sources */,
+				631C02D71831CA6400B2828B /* NezToolbarBackgroundView.m in Sources */,
+				635218E017F2B10A00F20784 /* NezAletterationAnimationNextGameBoard.m in Sources */,
+				631552D61820536300303988 /* NezAletterationAnimationUnretireWord.m in Sources */,
+				6373439E1803429E002A3BBD /* NezInstanceAttributeBufferObjectColor.m in Sources */,
+				63C54175181D95D20076B5A7 /* NezAletterationAnimationBeginGame.m in Sources */,
+				631C02D61831CA6400B2828B /* NezAletterationPlayerCollectionViewCell.m in Sources */,
+				631B066118414C110020C0B9 /* NezStoreKit.m in Sources */,
+				635021EF17FA3F8C009256A1 /* NezAletterationPlayer.m in Sources */,
+				636BEFAF1847D4A900D8C143 /* NezVertexBufferObjectTextureVertex.m in Sources */,
+				635218BB17F2043900F20784 /* NezAletterationGameBoard.m in Sources */,
+				635218BE17F2043900F20784 /* NezAletterationLetterStackLabel.m in Sources */,
+				637343B918037BAC002A3BBD /* NezInstanceVertexArrayObjectLitColor.m in Sources */,
+				635D27FB1853B1F300375C7D /* NezInstanceAttributeBufferObjectGeometryParticle.m in Sources */,
+				631C02C11831A14B00B2828B /* NezAletterationPlayerOptionsViewController.m in Sources */,
+				635218BC17F2043900F20784 /* NezAletterationLetterBlock.m in Sources */,
+				635218C017F2043900F20784 /* NezAletterationGraphics.m in Sources */,
+				63DA128917FB52880024C293 /* NezSQLite.c in Sources */,
+				63229F5D181F299E0086B051 /* NezAletterationAnimationExitGame.m in Sources */,
+				636BEFB21847D75800D8C143 /* NezAletterationTextureBlock.m in Sources */,
+				6373438118032E62002A3BBD /* NezVertexBufferObject.m in Sources */,
+				631C02DA1831CA8600B2828B /* NezAletterationRoundCornerTagView.m in Sources */,
+				635218D717F2062400F20784 /* NezMaterials.m in Sources */,
+				63C18A0B1813221D00D26257 /* NezAletterationGameCenterPlayer.m in Sources */,
+				637343AF18035A1E002A3BBD /* NezInstanceAttributeBufferObjectColorTexture.m in Sources */,
+				63DA128A17FB52880024C293 /* NezSQLiteHighScores.m in Sources */,
+				635218C717F2043900F20784 /* NezGeometry.m in Sources */,
+				635218BF17F2043900F20784 /* NezAletterationWordLine.m in Sources */,
+				63042A771891BB100089BDAC /* NezStoreKitProduct.m in Sources */,
+				630D81FF182EF80400CC6848 /* NezCubicBezier2d.m in Sources */,
+				6353991717F34A53000C24E3 /* NezAletterationSplashViewController.m in Sources */,
+				6349C9BB17F88C9D007E38BD /* UIImage+ImageEffects.m in Sources */,
+				6373437D18032CA7002A3BBD /* NezModelVertexArray.m in Sources */,
+				634E7282180E68E30094402A /* NezAletterationGameStateLineStateStack.m in Sources */,
+				634334911836B7C70018005F /* NezVertexBufferObjectParticleVertex.m in Sources */,
+				6323348018123DB00055C534 /* NezAletterationRealTimeMultiplayerViewController.m in Sources */,
+				6319F59A185272880034F547 /* NezVertexArrayObjectGeometryEmitter.m in Sources */,
+				634CD0EC181B6B2300D04FC9 /* NezAletterationLetterBox.m in Sources */,
+				637343A318034388002A3BBD /* NezVertexBufferObjectInstanceTextureVertex.m in Sources */,
+				6349C9C417F8A9E0007E38BD /* NezAletterationNavigationController.m in Sources */,
+				634DAAD317F39BDE00AA6460 /* NezAletterationGameTable.m in Sources */,
+				637343B318035F64002A3BBD /* NezVertexArrayObject.m in Sources */,
+				6323C353183543C30018661B /* UIView+ExtraContraints.m in Sources */,
+				635218D117F2043900F20784 /* NezAletterationAppDelegate.m in Sources */,
+				6373439D1803429E002A3BBD /* NezInstanceAttributeBufferObject.m in Sources */,
+				6319F59418526DB80034F547 /* NezInstanceAttributeBufferObjectLocation.m in Sources */,
+				637343B018035A1E002A3BBD /* NezInstanceAttributeBufferObjectTexture.m in Sources */,
+				634DAAD017F39B4600AA6460 /* NezFadeCustomSegue.m in Sources */,
+				632334841812409E0055C534 /* NezGameCenter.m in Sources */,
+				63F92535180731DF001DD535 /* NezAletterationSaveGame.m in Sources */,
+				6349C9BE17F88CE8007E38BD /* NezAletterationMainMenuViewController.m in Sources */,
+				63172898182773950028AE49 /* NezAletterationRestorableGeometry.m in Sources */,
+				63FF9B051805FA57009B91B2 /* NezAletterationRetiredWord.m in Sources */,
+				635218C417F2043900F20784 /* NezAnimator.m in Sources */,
+				636BEFB51847D9EE00D8C143 /* NezVertexArrayObjectTexture.m in Sources */,
+				637343BC18039555002A3BBD /* NezInstanceVertexArrayObjectLitColorTexture.m in Sources */,
+				63C01D50185106EF0063A880 /* NezInstanceAttributeBufferObjectColorTintTexture.m in Sources */,
+				63137EF5182810B3005AC3E5 /* NezRestorableObject.m in Sources */,
+				635021E717F9E0FC009256A1 /* NezRandom.c in Sources */,
+				635C047C18184554000E0C84 /* NezAletterationLid.m in Sources */,
+				631552D31820534800303988 /* NezAletterationAnimationRetireWord.m in Sources */,
+				637343C218039BB5002A3BBD /* NezInstanceVertexArrayObjectTexture.m in Sources */,
+				635218D417F2043900F20784 /* NezGLSLProgram.m in Sources */,
+				63DA127D17FB46090024C293 /* NezAletterationGameStateRetiredWord.m in Sources */,
+				63DA127717FB455F0024C293 /* NezAletterationGameState.m in Sources */,
+				631B066A184151F10020C0B9 /* NezAletterationStoreKit.m in Sources */,
+				637343BF1803980C002A3BBD /* NezInstanceVertexArrayObjectColor.m in Sources */,
+				63C01D53185109F30063A880 /* NezInstanceVertexArrayObjectLitColorTintTexture.m in Sources */,
+				631CEB02183E975900542363 /* NezInstanceVertexArrayObjectColorTexture.m in Sources */,
+				634DAAB917F35DBF00AA6460 /* NezGCD.m in Sources */,
+				63450BA71821AE7800CDBBEA /* NezAletterationAnimationPushBackLetter.m in Sources */,
+				635021EB17FA3EDC009256A1 /* NezAletterationSinglePlayerGameViewController.m in Sources */,
+				63734397180340F1002A3BBD /* NezVertexBufferObjectLitInstanceTextureVertex.m in Sources */,
+				635C047918184415000E0C84 /* NezAletterationBox.m in Sources */,
+				63DA127A17FB45B40024C293 /* NezAletterationGameStateLineState.m in Sources */,
+				637343B618036438002A3BBD /* NezInstanceVertexArrayObject.m in Sources */,
+				63DA128017FB46C50024C293 /* NezAletterationGameStateTurn.m in Sources */,
+				631E2E691815E3F1002F5465 /* NezInstanceVertexArrayObjectLitTextureColor.m in Sources */,
+				6326874C182E0A4D0010C14A /* NezAletterationAnimationSlide.m in Sources */,
+				63FF9B0818061B77009B91B2 /* NezAletterationRetiredWordBoard.m in Sources */,
+				63DA128817FB52880024C293 /* NezAletterationSQLiteDictionary.m in Sources */,
+				637343A6180344DD002A3BBD /* NezVertexBufferObjectVertex.m in Sources */,
+				638427A918343FA800AD05E2 /* NezAletterationRoundCornerTagImageView.m in Sources */,
+				6323C35618354FF20018661B /* NezAletterationSinglePlayerGameiPadViewController.m in Sources */,
+				635218BD17F2043900F20784 /* NezAletterationLetterStack.m in Sources */,
+				630D8205182EFA1600CC6848 /* NezAnimationPath2d.m in Sources */,
+				635218C817F2043900F20784 /* NezRay.m in Sources */,
+				635218D317F2043900F20784 /* NezGLSLCompiler.m in Sources */,
+				635A33BF17ECCDA200A69F27 /* main.m in Sources */,
+				6315B32218622CA2001E1486 /* NezVertexArrayObjectTexturedGeometryEmitter.m in Sources */,
+				63263EDA183AED410085AA11 /* NezAletterationRealTimeMultiplayeriPadViewController.m in Sources */,
+				6369844E181776730034D89D /* NezGLCamera.m in Sources */,
+				634DAAC817F3824700AA6460 /* NezOpenAL.m in Sources */,
+				630D8202182EF8DB00CC6848 /* NezPath2d.m in Sources */,
+				635218D017F2043900F20784 /* NezSimpleObjLoader.m in Sources */,
+				6319F597185270860034F547 /* NezVertexArrayObjectEmitter.m in Sources */,
+				631B1FA018471F0300A75A43 /* NezVertexArrayObjectParticleEmitter.m in Sources */,
+				634CD0EF181B6C6100D04FC9 /* NezAletterationLetterGroup.m in Sources */,
+				6373438B18033818002A3BBD /* NezVertexBufferObjectLitVertex.m in Sources */,
+				632DF77118315DD800AC65B5 /* NezAletterationPlayerPrefs.m in Sources */,
+				634CD0E9181B159B00D04FC9 /* NezAnimationPath3d.m in Sources */,
+				634CD0E6181B14A700D04FC9 /* NezPath3d.m in Sources */,
+				635218C617F2043900F20784 /* NezCubicBezier3d.m in Sources */,
+				634DAAD717F3B72C00AA6460 /* NezAletterationBaseGameViewController.m in Sources */,
+				6394999417FF55E400857C6C /* NezGLFrameBufferObject.m in Sources */,
+				631B1FA6184724B600A75A43 /* NezVertexArrayObjectAcceleratingParticleEmitter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635A33D317ECCDA200A69F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635A33E517ECCDA200A69F27 /* Aletteration3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635A33DD17ECCDA200A69F27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635A33AA17ECCDA200A69F27 /* Aletteration3 */;
+			targetProxy = 635A33DC17ECCDA200A69F27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		635A33BB17ECCDA200A69F27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635A33BC17ECCDA200A69F27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		635A33C417ECCDA200A69F27 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635A33C517ECCDA200A69F27 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		635A33C717ECCDA200A69F27 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635A33C817ECCDA200A69F27 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		635A33E117ECCDA200A69F27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				635A33E217ECCDA200A69F27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		635A33E617ECCDA200A69F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		635A33E717ECCDA200A69F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635A33E917ECCDA200A69F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aletteration3/Aletteration3-Prefix.pch";
+				INFOPLIST_FILE = "Aletteration3/Aletteration3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		635A33EA17ECCDA200A69F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aletteration3/Aletteration3-Prefix.pch";
+				INFOPLIST_FILE = "Aletteration3/Aletteration3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		635A33EC17ECCDA200A69F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aletteration3.app/Aletteration3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aletteration3/Aletteration3-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Aletteration3Tests/Aletteration3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		635A33ED17ECCDA200A69F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aletteration3.app/Aletteration3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aletteration3/Aletteration3-Prefix.pch";
+				INFOPLIST_FILE = "Aletteration3Tests/Aletteration3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635A33A617ECCDA200A69F27 /* Build configuration list for PBXProject "Aletteration3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635A33E617ECCDA200A69F27 /* Debug */,
+				635A33E717ECCDA200A69F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635A33E817ECCDA200A69F27 /* Build configuration list for PBXNativeTarget "Aletteration3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635A33E917ECCDA200A69F27 /* Debug */,
+				635A33EA17ECCDA200A69F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635A33EB17ECCDA200A69F27 /* Build configuration list for PBXNativeTarget "Aletteration3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635A33EC17ECCDA200A69F27 /* Debug */,
+				635A33ED17ECCDA200A69F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635A33A317ECCDA200A69F27 /* Project object */;
+}
